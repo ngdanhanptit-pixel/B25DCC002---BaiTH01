@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio cá nhân của Nguyễn Danh An" />
+    <title>Nguyễn Danh An | Personal Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="navbar container" aria-label="Điều hướng chính">
+        <a class="logo" href="#home">DA<span>.</span></a>
+        <button
+          class="menu-toggle"
+          id="menuToggle"
+          type="button"
+          aria-label="Mở menu"
+          aria-expanded="false"
+        >
+          ☰
+        </button>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#about">Giới thiệu</a></li>
+          <li><a href="#skills">Kỹ năng</a></li>
+          <li><a href="#projects">Dự án</a></li>
+          <li><a href="#contact">Liên hệ</a></li>
+          <li>
+            <button
+              class="theme-toggle"
+              id="themeToggle"
+              type="button"
+              aria-label="Đổi giao diện"
+            >
+              <i class="fa-solid fa-sun"></i>
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero container" id="home">
+        <div class="hero-content reveal">
+          <p class="eyebrow">XIN CHÀO, MÌNH LÀ</p>
+          <h1>Nguyễn <span>Danh An</span></h1>
+          <p class="hero-description">
+            Sinh viên Công nghệ thông tin yêu thích lập trình, thiết kế giao
+            diện và xây dựng những sản phẩm web hữu ích.
+          </p>
+          <div class="hero-buttons">
+            <a class="button primary-button" href="#projects">Xem dự án</a>
+            <a class="button secondary-button" href="#contact"
+              >Liên hệ với mình</a
+            >
+          </div>
+        </div>
+        <div class="hero-card glass reveal">
+          <div class="avatar">
+            <img
+              src="https://avatars.githubusercontent.com/u/233202021?v=4"
+              alt="avatar"
+            />
+          </div>
+          <h2>Web Developer</h2>
+          <p>Học hỏi mỗi ngày · Sáng tạo · Kiên trì</p>
+          <div class="social-links">
+            <a
+              href="https://github.com/ngdanhanptit-pixel"
+              target="_blank"
+              rel="noreferrer"
+              >GitHub</a
+            >
+            <a
+              href="https://www.facebook.com/nguyen.danh.an.181883/"
+              target="_blank"
+              rel="noreferrer"
+              >Facebook</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="section container reveal" id="about">
+        <div class="section-heading">
+          <p class="eyebrow">01 · ABOUT ME</p>
+          <h2>Giới thiệu bản thân</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-image glass">
+            <img
+              src="https://images.unsplash.com/photo-1786366761715-d2b64f98b5b1?q=80&w=687&auto=format&fit=crop"
+              alt="Ảnh đại diện của Danh An"
+            />
+          </div>
+          <div class="about-text glass">
+            <p>
+              Xin chào, mình tên là Nguyễn Danh An. Mình hiện đang là sinh viên
+              và có niềm yêu thích với công nghệ, đặc biệt là lập trình và phát
+              triển web.
+            </p>
+            <p>
+              Ngoài thời gian học tập, mình thích chơi game, nghe nhạc và tìm
+              hiểu kiến thức mới. Mình luôn cố gắng cải thiện bản thân mỗi ngày
+              và biến ý tưởng thành những sản phẩm đơn giản, dễ sử dụng.
+            </p>
+            <div class="info-list">
+              <p><strong>📍 Địa chỉ:</strong> Hà Nội, Việt Nam</p>
+              <p><strong>✉️ Email:</strong> andanh2k7@email.com</p>
+              <p><strong>🎓 Ngành học:</strong> Công nghệ thông tin</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section container reveal" id="skills">
+        <div class="section-heading">
+          <p class="eyebrow">02 · MY SKILLS</p>
+          <h2>Kỹ năng chuyên môn</h2>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card glass">
+            <span class="skill-icon">&lt;/&gt;</span>
+            <h3>Frontend</h3>
+            <p>HTML5, CSS3, JavaScript, React.js và Responsive Design.</p>
+            <div class="progress"><span style="width: 88%"></span></div>
+          </article>
+          <article class="skill-card glass">
+            <span class="skill-icon">⚙</span>
+            <h3>Backend</h3>
+            <p>Node.js, Express.js, Django, MongoDB và PostgreSQL.</p>
+            <div class="progress"><span style="width: 68%"></span></div>
+          </article>
+          <article class="skill-card glass">
+            <span class="skill-icon">✦</span>
+            <h3>Công cụ khác</h3>
+            <p>Git, GitHub, Docker, RESTful API và thiết kế giao diện.</p>
+            <div class="progress"><span style="width: 78%"></span></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section container reveal" id="projects">
+        <div class="section-heading project-heading">
+          <div>
+            <p class="eyebrow">03 · MY WORK</p>
+            <h2>Dự án tiêu biểu</h2>
+          </div>
+          <div class="project-tools">
+            <input
+              id="projectSearch"
+              type="search"
+              placeholder="Tìm dự án..."
+              aria-label="Tìm dự án"
+            /><select id="projectFilter" aria-label="Lọc dự án">
+              <option value="all">Tất cả</option>
+              <option value="web">Web</option>
+              <option value="javascript">JavaScript</option>
+              <option value="design">Design</option>
+            </select>
+          </div>
+        </div>
+        <div class="projects-grid" id="projectList">
+          <article class="project-card glass" data-tags="web design">
+            <div class="project-number">01</div>
+            <h3>Landing Page Du lịch</h3>
+            <p>
+              Trang web giới thiệu dịch vụ du lịch với thiết kế responsive và
+              trải nghiệm người dùng thân thiện.
+            </p>
+            <div class="tags"><span>HTML/CSS</span><span>Design</span></div>
+          </article>
+          <article class="project-card glass" data-tags="web javascript">
+            <div class="project-number">02</div>
+            <h3>Web Game</h3>
+            <p>
+              Trò chơi trực tuyến sử dụng HTML5 Canvas và JavaScript, có tính
+              năng lưu điểm số.
+            </p>
+            <div class="tags"><span>JavaScript</span><span>Canvas</span></div>
+          </article>
+          <article class="project-card glass" data-tags="web javascript">
+            <div class="project-number">03</div>
+            <h3>Portfolio cá nhân</h3>
+            <p>
+              Website giới thiệu bản thân, kỹ năng và dự án cá nhân với giao
+              diện glassmorphism.
+            </p>
+            <div class="tags"><span>HTML/CSS</span><span>JavaScript</span></div>
+          </article>
+        </div>
+        <p class="empty-message" id="emptyMessage" hidden>
+          Không tìm thấy dự án phù hợp.
+        </p>
+      </section>
+
+      <section class="section container reveal" id="contact">
+        <div class="section-heading">
+          <p class="eyebrow">04 · CONTACT</p>
+          <h2>Liên hệ với mình</h2>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-intro glass">
+            <h3>Cùng tạo điều gì đó thú vị nhé!</h3>
+            <p>
+              Nếu bạn có câu hỏi, đề xuất hợp tác hoặc chỉ muốn nói xin chào,
+              hãy gửi tin nhắn cho mình.
+            </p>
+            <p>⏱ Mình sẽ phản hồi trong vòng 24 giờ.</p>
+          </div>
+          <form class="contact-form glass" id="contactForm" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="fullname">Họ tên *</label
+                ><input
+                  id="fullname"
+                  name="fullname"
+                  type="text"
+                  placeholder="Nguyễn Văn A"
+                /><small class="error" id="fullnameError"></small>
+              </div>
+              <div class="form-group">
+                <label for="email">Email *</label
+                ><input
+                  id="email"
+                  name="email"
+                  type="email"
+                  placeholder="email@example.com"
+                /><small class="error" id="emailError"></small>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="subject">Chủ đề *</label
+              ><select id="subject" name="subject">
+                <option value="">-- Chọn chủ đề --</option>
+                <option>Hợp tác dự án</option>
+                <option>Góp ý</option>
+                <option>Hỏi đáp</option></select
+              ><small class="error" id="subjectError"></small>
+            </div>
+            <div class="form-group">
+              <label for="message"
+                >Nội dung * <span id="charCount">0/300</span></label
+              ><textarea
+                id="message"
+                name="message"
+                maxlength="300"
+                rows="5"
+                placeholder="Viết tin nhắn của bạn..."
+              ></textarea
+              ><small class="error" id="messageError"></small>
+            </div>
+            <button class="button primary-button" type="submit">
+              Gửi tin nhắn
+            </button>
+            <p class="form-status" id="formStatus" role="status"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-content">
+        <p>© <span id="currentYear"></span> Nguyễn Danh An. Made with ❤️</p>
+        <a href="#home">Về đầu trang ↑</a>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
